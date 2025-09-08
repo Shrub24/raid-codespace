@@ -32,4 +32,19 @@
     	}
 	}
 
+	"secrets": {
+		"OPENAI_API_KEY":{
+			"description": "Open AI API Key",
+			"documentationUrl": "https://platform.openai.com/account/api-keys"
+		},
+		"GEMINI_API_KEY":{
+			"description": "Gemini API Key",
+			"documentationUrl": "https://aistudio.google.com/app/apikey"
+		},
+		"GROQ_API_KEY":{
+			"description": "Groq API Key",
+			"documentationUrl": "https://console.groq.com/keys"
+		}
+	}
+
 }

@@ -1,1 +1,2 @@
-litellm==1.76
+litellm~=1.76
+openai~=1.106
