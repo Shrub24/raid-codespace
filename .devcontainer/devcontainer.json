@@ -30,7 +30,7 @@
 		"codespaces": {
       		"disableAutomaticConfiguration": true
     	}
-	}
+	},
 
 	"secrets": {
 		"OPENAI_API_KEY":{
