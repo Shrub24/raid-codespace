@@ -8,13 +8,13 @@
 			"version": "3.12"
 		},
 		"ghcr.io/prulloac/devcontainer-features/ollama:1": {
-			"pull": "phi4-mini"
+			// "pull": "phi4-mini"
 		}
 	},
 
 	"forwardPorts": [8888, 11434],
 
-
+	"postStartCommand": "ollama pull phi4-mini",
 	"onCreateCommand": "pip install --no-cache-dir -r requirements.txt",
 
 
@@ -33,7 +33,10 @@
 				"editor.defaultFormatter": "charliermarsh.ruff"
 				}
 			}
-		}
+		},
+		"codespaces": {
+      		"disableAutomaticConfiguration": true
+    	}
 	}
 
 }
