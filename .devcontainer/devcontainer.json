@@ -1,13 +1,14 @@
 {
 	"name": "Python 3",
 	"image": "mcr.microsoft.com/devcontainers/python:3.12",
+	"containerEnv": {
+		"OLLAMA_MODEL": "hf.co/unsloth/Phi-4-mini-instruct-GGUF"
+	},
 	"features": {
 		"ghcr.io/prulloac/devcontainer-features/ollama:1": {
-				"pull": "phi4-mini"
+			"pull": "hf.co/unsloth/Phi-4-mini-instruct-GGUF"
 		}
 	},
-
-	// "forwardPorts": [8888, 11434],
 
 	"onCreateCommand": "pip install --no-cache-dir -r requirements.txt",
 
