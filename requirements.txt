@@ -1,3 +1,2 @@
 litellm~=1.76
-openai~=1.106
 ipykernel~=6.30
